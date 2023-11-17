@@ -21,6 +21,7 @@ def current_date(request):
         return HttpResponse(f'Настоящее дата и время: {datetime.datetime.now()}')
 
 
+
 def test(request):
     if request.method == 'GET':
         return HttpResponse('TEST!')
