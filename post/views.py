@@ -8,7 +8,7 @@ def hello_view(request):
     if request.method == 'GET':
         return render(request, 'index.html')
 
-#  Почему у меня не отображается print(request)!!!
+#  Почему у меня не отображается print(request)!!! Ответ получил, что бы он работал надо, именно тот view должен быть активировано
 
 
 def good_bye(request):
